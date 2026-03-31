@@ -1,0 +1,9 @@
+openai
+deepgram-sdk
+elevenlabs
+sounddevice
+numpy
+scipy
+pygame
+python-dotenv
+librosa

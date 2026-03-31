@@ -1,0 +1,30 @@
+{
+    "student_id": "student_001",
+    "onboarding_done": true,
+    "onboarding_date": "2026-03-31T12:00:00",
+    "ipc": {
+        "dominance": 0.468,
+        "warmth": 0.466,
+        "pace": "medium",
+        "archetype": "lina"
+    },
+    "learning_style": {
+        "processing_style": "flexible",
+        "goal_type": "curiosity"
+    },
+    "knowledge": {
+        "mastery_map": {},
+        "misconceptions": [
+            "The student initially struggled to grasp the concept of numbers being 'built' from primes, indicating a need for more concrete examples and analogies. They also asked for a 'funnier way' to understand it, suggesting the current explanation, while accurate, wasn't engaging enough for them."
+        ]
+    },
+    "mental_model": {
+        "metacognition_level": "medium",
+        "naive_theories": []
+    },
+    "cognitive_load": {
+        "chunk_size": 2,
+        "consecutive_confused": 0
+    },
+    "session_history": []
+}
