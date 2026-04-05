@@ -1,30 +1,26 @@
 {
     "student_id": "student_001",
     "onboarding_done": true,
-    "onboarding_date": "2026-03-31T12:00:00",
+    "onboarding_date": "2026-04-05T13:09:52.119592",
     "ipc": {
-        "dominance": 0.468,
-        "warmth": 0.466,
+        "dominance": 0.375,
+        "warmth": 0.572,
+        "archetype": "lina",
         "pace": "medium",
-        "archetype": "lina"
+        "assertiveness_delta": 0.0
     },
     "learning_style": {
-        "processing_style": "flexible",
-        "goal_type": "curiosity"
+        "processing_style": "bottom_up",
+        "analogy_receptiveness": "high",
+        "goal_type": "boards",
+        "encouragement_need": "low"
+    },
+    "cognitive_load": {
+        "chunk_size": 1
     },
     "knowledge": {
         "mastery_map": {},
-        "misconceptions": [
-            "The student initially struggled to grasp the concept of numbers being 'built' from primes, indicating a need for more concrete examples and analogies. They also asked for a 'funnier way' to understand it, suggesting the current explanation, while accurate, wasn't engaging enough for them."
-        ]
-    },
-    "mental_model": {
-        "metacognition_level": "medium",
-        "naive_theories": []
-    },
-    "cognitive_load": {
-        "chunk_size": 2,
-        "consecutive_confused": 0
+        "misconceptions": []
     },
     "session_history": []
 }

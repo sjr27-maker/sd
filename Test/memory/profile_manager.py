@@ -133,3 +133,12 @@ class ProfileManager:
         with open(self.profile_path, "w") as f:
             json.dump(self.data, f, indent=4)
         logger.info(f"Profile saved for {self.student_id}")
+
+        
+    def update_style_profile(self, style_profile: dict):
+        """
+        Save updated style profile to permanent memory.
+        Called at session end — not per-turn (too frequent).
+        """
+        self.profile["style_profile"] = style_profile
+        self.save()

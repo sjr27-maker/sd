@@ -6,6 +6,9 @@ from brain.layer8_comprehension  import (
     should_trigger_teach_back,
     get_teach_back_instruction
 )
+# After all other parts are assembled:
+from brain.layer_style_mirror import get_mirror_instruction
+
 
 def build_system_prompt(
         adapted_ipc:    dict,
@@ -101,3 +104,10 @@ def build_system_prompt(
     )
 
     return "\n\n".join(parts)
+
+    mirror = get_mirror_instruction(
+    profile.get("style_profile", {}),
+    len(profile.get("session_history", []))
+)
+    if mirror:
+        parts.append(mirror)
